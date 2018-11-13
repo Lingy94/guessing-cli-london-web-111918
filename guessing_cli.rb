@@ -2,7 +2,7 @@
 require 'pry'
 def run_guessing_game
    puts "Guess a number between 1 and 6."
-<<<<<<< HEAD
+
    command = gets.chomp
    number = rand(1..6)
    
@@ -17,7 +17,7 @@ def run_guessing_game
     end
       command = gets.chomp
   end
-=======
+
    
    number = rand(1..6)
    
@@ -31,6 +31,6 @@ def run_guessing_game
       end
     end
     command = gets.chomp
->>>>>>> 715b9322a8fc8f2289ac66d907ffa9d05dce9a54
+
     puts "Goodbye!"
 end
